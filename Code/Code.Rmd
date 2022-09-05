@@ -1,0 +1,22 @@
+---
+title: "Eye-Tracking PreProcessing"
+author: "Ali G. Mahdipour"
+date: '2022-09-05'
+output: pdf_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+# working with eyetrackingR package
+for more information on how to prepare your data using eyetrackingR for further analysis see this vignette: http://www.eyetracking-r.com/vignettes/preparing_your_data
+
+## preparing data
+``` {r}
+library(eyetrackingR)
+
+pupil.labs <- read.csv("./Data/Pupil-labs/gaze_positions.csv")
+pupil.labs$x <- pupil.labs$norm_pos_x * 1088
+pupil.labs$y <- pupil.labs$norm_pos_y * 1080
+```
+
