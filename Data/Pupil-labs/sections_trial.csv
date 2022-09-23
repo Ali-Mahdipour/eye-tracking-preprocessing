@@ -1,0 +1,2 @@
+section id,recording id,recording name,wearer id,wearer name,section start time [ns],section end time [ns],start event name,end event name
+f8737c9a-d767-4891-a507-578cd9568354,e93561fb-b770-4f86-a07a-f6c7a4683056,2022-06-15_15:18:08,bf842b29-7b92-4daf-ae43-864a88a1d148,Pilot2,1655295488424000000,1655295581813000000,recording.begin,recording.end
